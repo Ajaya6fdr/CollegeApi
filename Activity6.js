@@ -38,7 +38,7 @@ async function getCollage(country) {
         console.log(movies); 
         return movies;   
     }catch{
-        console.log(error);
+        console.log("error");
         return [];
     }
   } 
